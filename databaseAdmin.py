@@ -6,7 +6,7 @@ Log_in_info = {
     "oreo":"Oreo#991",
     "pistu":"Pistu22222",
     "bob":"Bob55555555",
-    "queen":"12345678",
+    "rehan":"24242488",
     "admin00":"88888888888"
 }
 
@@ -27,6 +27,7 @@ if user_name in Log_in_info.keys():
                 if len(new)>=8:
                     Log_in_info[user_name]=new
                 else:
+                    
                     print("Not a validate password")
 
                 print(f"Username: {user_name}\t Password: {Log_in_info[user_name]} ")
